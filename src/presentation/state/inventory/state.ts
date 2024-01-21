@@ -9,7 +9,7 @@ import { RemoteDataImpl } from "../../../data/repositories/remote-data-impl"
 import { useInentoryStore } from "./store"
 
 const handleSearch = (query: string) => {
-  console.log("JKW", query)
+  console.log("SRC", query)
 }
 export const useInventory = () => {
   const InventoryUsecaseInstance = new InventoryUsecase(new RemoteDataImpl())
@@ -30,8 +30,6 @@ export const useInventory = () => {
     if (result._tag === "Right") {
       setInventoryList(result.right.data)
     }
-
-    console.log("JOKOWI:", result)
   }
 
   useEffect(() => {
