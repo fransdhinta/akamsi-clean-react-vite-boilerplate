@@ -1,2 +1,4 @@
-# FROM AKAMSI TO AKAMSI
-Project boilerplate dengan menerapkan clean architecture dan dependency minimum yang diperlukan untuk rilis ke production.
+# FOR AKAMSI
+React+Vite Project boilerplate dengan menerapkan clean architecture.
+
+Detail Coming Soon :D

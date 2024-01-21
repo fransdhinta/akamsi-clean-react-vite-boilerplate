@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"doggy8088.quicktype-refresh",
+		"mhutchie.git-graph",
+		"vector-of-bool.gitflow",
+		"eamodio.gitlens",
+		"ms-vsliveshare.vsliveshare",
+		"christian-kohler.path-intellisense",
+		"esbenp.prettier-vscode",
+		"xabikos.reactsnippets",
+		"graphql.vscode-graphql-syntax"
+	]
+}

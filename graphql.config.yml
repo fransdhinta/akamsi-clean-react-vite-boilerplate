@@ -1,0 +1,11 @@
+projects:
+  backend:
+    schema: providers/graphql/codegen/schema-backend.graphql
+    documents:
+      - providers/graphql/codegen/queries-backend/**/*.gql
+      - providers/graphql/codegen/__generated__/schema-backend
+  hasura:
+    schema: providers/graphql/codegen/schema-hasura.graphql
+    documents:
+      - providers/graphql/codegen/queries-hasura/**/*.gql
+      - providers/graphql/codegen/__generated__/schema-hasura.ts
