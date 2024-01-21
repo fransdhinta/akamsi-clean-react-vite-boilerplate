@@ -18,7 +18,7 @@
 		"url": "https://github.com/fransdhinta/akamsi-clean-react-vite-boilerplate"
 	},
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"scripts": {
 		"setup": "git init && husky install && npx playwright install",
 		"format": "prettier src/**/*.{ts,tsx} --write",
@@ -55,6 +55,7 @@
 		"fp-ts": "^2.16.1",
 		"lodash": "^4.17.21",
 		"moment": "^2.30.1",
+		"ora": "^8.0.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-hook-form": "^7.45.2",
