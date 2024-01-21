@@ -1,5 +1,5 @@
 # FOR AKAMSI
-React+Vite Project boilerplate dengan menerapkan clean architecture.
+React+Vite Project boilerplate by implementing clean architecture and ready for production.
 
 ## Installation
 
