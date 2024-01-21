@@ -1,5 +1,5 @@
 {
-	"name": "akamsi-react",
+	"name": "akamsi-clean-react-vite-boilerplate",
 	"author": "fransdhinta",
 	"private": "true",
 	"description": "Akamsi Boilerplate Project - Clean",
@@ -11,6 +11,9 @@
 		"boilerplate",
 		"template"
 	],
+	"bin": {
+		"akamsi-clean-react-vite-boilerplate": "bin/install.mjs"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/fransdhinta/akamsi-clean-react-vite-boilerplate"
