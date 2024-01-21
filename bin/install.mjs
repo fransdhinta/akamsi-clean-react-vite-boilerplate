@@ -42,13 +42,16 @@ try {
   const cleanSpinner = ora("Removing useless files").start();
   // remove my git history
   const rmGit = rm(path.join(projectPath, ".git"), { recursive: true, force: true });
+  // console.log(".GIT-REMOVED")
   // remove the installation file
   const rmBin = rm(path.join(projectPath, "bin"), { recursive: true, force: true });
+  // console.log("/BIN-REMOVED")
   await Promise.all([rmGit, rmBin]);
 
   process.chdir(projectPath);
+  // console.log("CHANGE DIR", projectPath)
   // remove the packages needed for cli
-  await exec("npm uninstall ora cli-spinners");
+  // await exec("npm uninstall ora cli-spinners");
   cleanSpinner.succeed();
 
   const npmSpinner = ora("Installing dependencies...").start();
